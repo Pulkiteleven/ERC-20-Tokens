@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMovie",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "movie",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "movieName",
+						"type": "string"
+					}
+				],
+				"name": "setMovie",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Name.sol": "Movie"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Name.sol": {
+			"keccak256": "0x03eb2708ebe00586803f6a51f100aa9b821e8eaabd20b7112da54894479bdf60",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://434bbe1df0cfec9f3506d0353e834a7fac70a51d1ac36d7fe9a05782578fcab6",
+				"dweb:/ipfs/QmYnaP31oT7WDdvfVsGuARb39PFSRD2sPYtJTyWghMX2cP"
+			]
+		}
+	},
+	"version": 1
+}
