@@ -43,7 +43,13 @@ contract Shadaptoken is ERC20 {
         _burn(msg.sender, supply);
     }
 
+    function TransferNow(address toAddress,uint supply) public {
+        if(balanceOf(msg.sender) < supply){
+            revert("You Don't have enough Tokens");
+        }
+        _transfer(msg.sender, toAddress, supply);
 
+    }
 
 }
 
